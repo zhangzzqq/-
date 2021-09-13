@@ -1,7 +1,22 @@
 <!--pages/profile/profile.wxml-->
 <!-- <text>pages/profile/profile.wxml</text> -->
 
-<view>
+<!-- <view>
 hello world2
+</view> -->
+
+
+<!-- <van-button type="primary">按钮</van-button> -->
+
+
+<!-- 用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与wx.getUserInfo返回的一致，
+open-type="getUserInfo"时有效 -->
+
+<view class='profile'>
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="profile-name"></open-data>
 </view>
 
+<button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
