@@ -1,0 +1,5 @@
+<!--pages/movie/movie.wxml-->
+<!-- <text>pages/movie/movie.wxml</text> -->
+<view>
+hello world1
+</view>
