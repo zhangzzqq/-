@@ -19,4 +19,8 @@ open-type="getUserInfo"时有效 -->
   <open-data type="userNickName" class="profile-name"></open-data>
 </view>
 
-<button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+<!-- color="#ff00ff" -->
+<!-- <van-button type="primary" size="large">大号按钮</van-button> -->
+<van-button  open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" 
+type="primary" size="large" class="profile-userinfo" color="#ff00ff"
+>获取用户信息</van-button>

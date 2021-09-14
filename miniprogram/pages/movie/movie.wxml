@@ -3,3 +3,5 @@
 <view>
 hello world1
 </view>
+
+<van-button type="primary" size="large" bindtap="aboutUs" >关于我们</van-button>

@@ -1,6 +1,4 @@
-// pages/movie/movie.js
-
-
+// pages/about_us/about_us.js
 Page({
 
   /**
@@ -8,26 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-
-  aboutUs:function(event){
-    // wx.showModal({
-    //   title: '提示',
-    //   content: '这是一个模态弹窗',
-    //   success (res) {
-    //     if (res.confirm) {
-    //       console.log('用户点击确定')
-    //     } else if (res.cancel) {
-    //       console.log('用户点击取消')
-    //     }
-    //   }
-    // })
-
-    wx.navigateTo({
-      url: '../../pages/about_us/about_us'
-    });
-    
   },
 
   /**

@@ -8,6 +8,12 @@ Page({
 
   },
 
+// 获取用户的信息
+  onGotUserInfo: function(event){
+    console.log(event);
+  },
+
+
   /**
    * 生命周期函数--监听页面加载
    */
